@@ -20,7 +20,8 @@ public class OpenSite {
     @When("the user navigates to the NOVA website")
     public void the_user_navigates_to_the_nova_website() {
         // Navigate to the NOVA website
-        driver.get("https://www.saucedemo.com/"); // Replace with the actual URL
+        driver.get("https://akmalice.pythonanywhere.com/"); // Replace with the actual URL
+        
     }
 
     @Then("the user should be on the NOVA website")
